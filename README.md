@@ -1,4 +1,4 @@
-# Orchest + Coiled: spawn cluster and run xgboost
+# Orchest + Coiled: spawn cluster and run XGBoost
 
 Spin up a Coiled cluster and run an xgboost train loop on it.
 
