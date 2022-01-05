@@ -1,0 +1,52 @@
+{
+    "name": "Main",
+    "parameters": {},
+    "settings": {
+        "auto_eviction": false,
+        "data_passing_memory_size": "1GB"
+    },
+    "steps": {
+        "464956c1-ac33-429f-8360-69eac37dda46": {
+            "environment": "bf9a19ea-9a9d-4e80-b252-01650cd8bee9",
+            "file_path": "activate-cluster.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    53.5,
+                    278.5
+                ]
+            },
+            "parameters": {},
+            "title": "Spawn cluster",
+            "uuid": "464956c1-ac33-429f-8360-69eac37dda46"
+        },
+        "b72e561a-250c-449c-b138-dab8fb5bb6cf": {
+            "environment": "bf9a19ea-9a9d-4e80-b252-01650cd8bee9",
+            "file_path": "xgboost-on-cluster.ipynb",
+            "incoming_connections": [
+                "464956c1-ac33-429f-8360-69eac37dda46"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    334,
+                    278.5
+                ]
+            },
+            "parameters": {},
+            "title": "Compute on cluster",
+            "uuid": "b72e561a-250c-449c-b138-dab8fb5bb6cf"
+        }
+    },
+    "uuid": "121bede2-7748-4f38-bbc2-944feb327676",
+    "version": "1.0.0"
+}
